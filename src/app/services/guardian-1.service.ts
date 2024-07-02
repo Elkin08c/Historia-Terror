@@ -12,7 +12,7 @@ export class AsylumGuardian1Service {
     this.asylumGuardian1 = new AsylumGuardian1();
     }
 
-    getAsylumGuardian(): AsylumGuardian1 {
+    getAsylumGuardian1(): AsylumGuardian1 {
         return this.asylumGuardian1;
     }
 }

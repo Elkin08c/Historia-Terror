@@ -10,7 +10,7 @@ constructor() {
     this.curious1 = new Curious1();
 }
 
-getCurious(): Curious1 {
+getCurious1(): Curious1 {
     return this.curious1;
 }
 }

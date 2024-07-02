@@ -4,7 +4,7 @@ import { Physician2 } from "../models/Physician.model";
 @Injectable({
     providedIn: 'root'
 })
-export class Patient2Service{
+export class Physician2Service{
     private patient2: Physician2;
 
     constructor(){

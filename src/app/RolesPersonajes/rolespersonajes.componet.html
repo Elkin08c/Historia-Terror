@@ -1,0 +1,101 @@
+<div nz-row [nzGutter]="16">
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="curious1?.name" [nzExtra]="curious1?.description">
+        <p>{{ currentStoryCurious1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(curious1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(curious1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="curious2?.name" [nzExtra]="curious2?.description">
+        <p>{{ currentStoryCurious2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(curious2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(curious2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="guardian1?.name" [nzExtra]="guardian1?.description">
+        <p>{{ currentStoryGuardian1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(guardian1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(guardian1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="guardian2?.name" [nzExtra]="guardian2?.description">
+        <p>{{ currentStoryGuardian2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(guardian2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(guardian2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="nurse1?.name" [nzExtra]="nurse1?.description">
+      <p> {{ currentStoryNurse1 }}</p>
+      <button nz-button nzType="primary" (click)="displayNextPart(nurse1)">Siguiente parte</button>
+      <button nz-button nzType="default" (click)="resetRoleStory(nurse1)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="nurse2?.name" [nzExtra]="nurse2?.description">
+        <p> {{ currentStorynurse }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(nurse2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(nurse2)">Reiniciar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="patient1?.name" [nzExtra]="patient1?.description">
+      <p> {{ currentStoryPatient1 }}</p>
+      <button nz-button nzType="primary" (click)="displayNextPart(patient1)">Siguiente Parte</button>
+      <button nz-button nzType="default" (click)="resetRoleStory(patient1)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="patient2?.name" [nzExtra]="patient2?.description">
+        <p> {{ currentStoryPatient2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(patient2)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(patient2)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="physician1?.name"  [nzExtra]="physician1?.description">
+        <p> {{ currentStoryPhysician1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(physician1)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(physician1)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="physician2?.name" [nzExtra]="physician2?.description">
+        <p> {{ currentStoryPhysician2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(physician2)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(physician2)">Reinicar historia</button>
+      </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="researcher1?.name" [nzExtra]="researcher1?.description">
+        <p> {{ currentStoryResearcherr1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(researcher1)">Siguiente Parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(researcher1)">Reinicar historia</button>
+        </nz-card>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="researcher2?.name" [nzExtra]="researcher2?.description">
+        <p> {{ currentStoryResearcher2 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(researcher2)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(researcher2)">Reinicar parte</button>
+        </nz-card>
+    </div> 
+    <div nz-col nzSpan="12">
+      <nz-card [nzTitle]="spirit1?.name"  [nzExtra]="spirit1?.description">
+        <p> {{ currentStorySpirit1 }}</p>
+        <button nz-button nzType="primary" (click)="displayNextPart(spirit1)">Siguiente parte</button>
+        <button nz-button nzType="default" (click)="resetRoleStory(spirit1)"> Reinicar parte</button>
+      </nz-card>
+      </div>
+      <div nz-col nzSpan="12">
+        <nz-card [nzTitle]="spirit2?.name" [nzExtra]="spirit2?.description">
+          <p> {{ currentStoryPartTeen2 }}</p>
+          <button nz-button nzType="primary" (click)="displayNextPart(spirit2)">Siguiente parte</button>
+          <button nz-button nzType="default" (click)="resetRoleStory(spirit2)">Reinicar parte</button>
+          </nz-card>
+     </div>
+    
+  </div>

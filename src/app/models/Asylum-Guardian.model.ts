@@ -5,10 +5,7 @@ private storyParts: string[] =[
 ]
 
     constructor(
-    public name: string,
-    public alias: string,
-    public age: string[],
-    public city: string
+    public name: string = 'Juan'
     ) {}
 
     introduce(): string {
@@ -52,9 +49,7 @@ export class AsylumGuardian2 {
     ]
     
         constructor(
-        public name: string,
-        public alias: string,
-        public age: string[],
+        public name: string = 'Maria'
         ) {}
 
         introduce(): string {
